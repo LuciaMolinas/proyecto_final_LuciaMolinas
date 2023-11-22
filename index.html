@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="author" content="Lucia Molinas">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <title>Dulce Lou | Recetas</title>
+</head>
+<body>  
+    <nav>
+      <ul class="nav justify-content-flex-start">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#receta-dulce">Recetas dulces</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#recetas-saladas">Recetas saladas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#cockteleria">Cockteles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html" target="_blank">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+      <section class="mi-titulo"> 
+        <div>
+          <img src=img/icono_pasteleria.png>
+          <h1><u>Dulce Lou</u></h1>
+          <h2>Recetas practicas y faciles de hacer</h2>
+        </div>
+      </section>
+    <article class="Receta">
+    <h2>Hoy hacemos este budín de limón esponjoso perfecto para el mate</h2>
+    <p>
+        Bienvenidos a esta receta, ideal para esos momentos cuando te piden llevar algo dulce y no tenes idea qué, lo podes decorar como vos quieras, yo preferí hacerlo con un glaseado hecho del mismo jugo de limón, pero le podes poner azucar impalpable arriba que te va a hacer quedar bien igual, sin más vueltas veamos que vamos a utilizar:
+    </p> 
+    <img class="budin img-fluid" src="img/budin.jpg" width="700" height="500">
+    <section class="recomendaciones">
+         <h2><u>Recomendaciones antes de empezar:</u></h2>
+        <p>
+            Antes de empezar, es preferible <b>encender el horno</b> para poder precalentarlo, ni muy fuerte ni muy bajo. <br>Lo mejor es tener todos los <b>ingredientes a temperatura ambiente</b> sea el limón, la leche, etc.<br>Una vez adentro del horno <b>evitá abrirlo</b> hasta pasado media hora o unos 40 minutos, así no corres el riesgo de que se baje antes de tiempo.<br>Se recomienda desmoldarlo una vez que está frío.
+        </p>
+    </section> 
+    <form name="ingredientes" id="forElement">
+        <h2><u>Ingredientes:</u></h2>
+        <span id="cb-validation"></span>
+        <ul>
+          <label>
+            <input type="checkbox" name="miCheck[]" value="azucar">
+            <span> Azúcar: 1 taza (200gr)</span>
+          </label><br>
+          <label>
+            <input type="checkbox" name="miCheck[]" value="huevos">
+            <span> Huevos: 2 </span>
+          </label><br>
+          <label>
+            <input type="checkbox" name="miCheck[]" value="aceite">
+            <span> Aceite: 200 ml (3/4 taza)</span>
+          </label><br>
+          <label>
+            <input type="checkbox" name="miCheck[]" value="limon">
+            <span> Limón: 1 (para rallarlo y jugo)<br></span>
+          </label><br>
+          <label>
+            <input type="checkbox" name="miCheck[]" value="leche">
+            <span> Leche: 125 ml (1/2 taza)<br></span>
+          </label><br>
+          <label>
+            <input type="checkbox" name="miCheck[]" value="esencia">
+            <span> Esencia de vainilla<br></span>
+          </label><br>
+          <label>
+            <input type="checkbox" name="miCheck[]" value="sal">
+            <span> Sal: 1/4 cdita<br></span>
+          </label><br> 
+          <label>
+            <input type="checkbox" name="miCheck[]" value="harina">
+            <span> Harina Leudante: 350 gr (3 tazas)
+                (pueden reemplazar por harina 0000 con 15 gr de polvo de hornear)</span>
+          </label><br>
+        </ul>
+        <button type="submit">Ya tengo todos mis ingredientes</button>
+      </form>
+    <section>
+        <h2><u>Pasos a seguir</u></h2>
+        <ol>
+            <li>Mezclar los huevos con el azucar</li>
+            <li>Agregar el aceite hasta que la mezcla lo absorva</li>
+            <li>Agregar la leche, la esencia de vainilla y el jugo y ralladura del limón</li>
+            <li>Poner la cdita de sal a la harina y luego ir poniendo la harina de a poco a la mezcla</li>
+            <li>Batir hasta que ya no queden grumos</li>
+            <li>Colocar la mezcla en un molde enmantecado y enharinado</li>
+            <li>Con el horno ya precalentado, colocar la mezcla y dejar ahi 40-45 minutos, o hasta que cuando pinches con un palillo éste salga seco</li>
+        </ol>
+    </section>  
+    <section>
+        <h2><u>Para el glaseado</u></h2>
+        <p>Utilizar azucar impalpable<br>Mezclar con el jugo del limón, lo ideal es que empieces poniendo unas gotas de a poquito para que no quede muy liquido el glaseado y la cantidad es a gusto</p>
+        <h2>Si te gustó la receta compartila!</h2>  
+    </section>
+</article>
+<section class="mas-recetas seccion-oscura">
+  <div class="container text-center">
+    <div class="row">
+      <h1>Recetas que te pueden gustar</h1>
+      <div id="cockteleria" class="col-12 col-md-4">
+        <img src="img/cockteleles-modernos.jpg">
+      </div>
+      <div id=receta-dulce class="col-12 col-md-4">
+        <img src="img/pan_dulce.jpg">
+      </div>
+      <div id=recetas-saladas class="col-12 col-md-4">
+        <img src="img/empanadas_de_carne.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              <h1>¡Hablemos!</h1>
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame si queres alguna receta especial para tus eventos.
+            </div>
+            <div id="contacto" class="col-12 col-md-4">
+              <a href="contacto.html" target="_blank">
+                <button type="button">
+                  Contacto 
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bottom">
+      <div>
+        <p>Copyright (c) 2023 Lucia Molinas <br>
+          Todos los derechos reservados</p>
+      </div>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+ </body>
+</html>
